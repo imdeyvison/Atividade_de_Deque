@@ -1,0 +1,11 @@
+O que é um deque:
+
+Deque = double-ended queue (fila de duas pontas).
+
+Permite inserir e remover elementos tanto no início quanto no fim.
+
+Operações comuns: pushFront, pushBack, popFront, popBack, peekFront, peekBack, isEmpty, size, clear.
+
+Implementado bem com lista duplamente ligada para garantir que inserções/remoções em ambas as pontas sejam O(1).
+
+Usa-se quando precisamos de acesso constante às duas extremidades (por exemplo: algoritmos de janelas deslizantes, BFS bidirecional, undo/redo, etc.).
